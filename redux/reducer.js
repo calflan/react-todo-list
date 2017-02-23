@@ -1,6 +1,6 @@
 function getId(state) {
   return state.todos.reduce((maxId, todo) => {
-    return Math.max(todo.is, maxId)
+    return Math.max(todo.id, maxId)
   }, -1) + 1
 }
 
