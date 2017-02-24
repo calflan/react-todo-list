@@ -5,6 +5,7 @@ import { connect } from 'react-redux'
 import { bindActionCreators } from 'redux'
 import actions from '../redux/actions'
 import UserInfo from './UserInfo'
+// import style from '../css/sass.min.css'
 
 class App extends Component {
 
